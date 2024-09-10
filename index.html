@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project with Documentations</title>
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Bootstrap CSS CDN Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+
+  <body class="bg-light">
+ 
+  <nav class="navbar navbar-expand-lg bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white fw-bolder fs-1" href="#">BS Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 me-3 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Shop All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Collection
+            </a>
+            <ul class="dropdown-menu bg-secondary">
+              <li><a class="dropdown-item" href="#">Dresses</a></li>
+              <li><a class="dropdown-item" href="#">Jumpsuits</a></li>
+              <li><a class="dropdown-item" href="">Evening & Cocktail</a></li>
+              <li><a class="dropdown-item" href="#">Minis</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success text-white" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carosel Section -->
+  <header>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="/images/beautiful-hero2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="/images/hero3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+
+ 
+   <!--  main section -->
+  <!-- Features Image Sections -->
+
+  <main>
+    <section class="container mt-5">
+      <div class="row align-items-center">
+        <dov class="col-lg-5">
+          <img src="/images/wearing-watch.avif" class="img-fluid" alt="">
+        </dov>
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card border-0 border-radious-20">
+                <img src="/images/watch1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-secondary">Tornado Autonova</p>
+                  <div class="d-flex justify-content-between">
+                  <span class="text-primary"> $140</span>
+                  <span class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  
+                  </span>
+                </div> 
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="/images/watch2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-secondary">Black Dial Automatic Watch</p>
+                  <div class="d-flex justify-content-between">
+                  <span class="text-primary"> $130</span>
+                  <span class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  
+                  </span>
+                </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="/images/watch3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-secondary">Slazenger Men'S Green Dial</p>
+                  <div class="d-flex justify-content-between">
+                  <span class="text-primary"> $150</span>
+                  <span class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  
+                  </span>
+                </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="/images/watch4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-secondary">Black Dial Automatic Watch</p>
+                  <div class="d-flex justify-content-between">
+                  <span class="text-primary"> $170</span>
+                  <span class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  
+                  </span>
+                </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="/images/watch5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-secondary">Black Dial Automatic Watch</p>
+                  <div class="d-flex justify-content-between">
+                  <span class="text-primary"> $149</span>
+                  <span class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  
+                  </span>
+                </div> 
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card border-0">
+                <img src="/images/watch6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text text-secondary">Black Dial Automatic Watch</p>
+                  <div class="d-flex justify-content-between">
+                  <span class="text-primary"> $160</span>
+                  <span class="text-warning">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <i class="bi bi-star"></i>
+                  
+                  </span>
+                </div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+  <!-- Trending Products -->
+  
+    <section class="container">
+      <div class="text-center my-5">
+        <p class="h3">Trending Products</p>
+      </div>
+      <div class="row">
+        <div class="col-md-3 shadow py-2">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass1.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+        <div class="col-md-3 shadow py-2">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass2.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+        <div class="col-md-3 shadow py-2">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass3.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+        <div class="col-md-3 shadow py-2">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass4.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+        <div class="col-md-3 shadow py-2 mt-5">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass4.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+        <div class="col-md-3 shadow py-2 mt-5">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass4.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+        <div class="col-md-3 shadow py-2 mt-5">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass4.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+        <div class="col-md-3 shadow py-2 mt-5">
+          <div class="d-flex justify-content-between">
+            <span class="bg-danger px-3 rounded text-white">Sale</span>
+            <span class="text-danger"><i class="bi bi-code"></i> Compare</span>
+          </div>
+          <img src="/images/glass4.jpg" class="img-fluid" alt="">
+          <span class="text-secondary">Glass</span>
+          <p class="h6">Lee Cooper Women</p>
+          <div class="d-flex justify-content-between">
+            <span class="text-primary">$79.00</span>
+            <span class="text-warning">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+              
+              </span>
+          </div>
+          <button class="btn btn-danger w-100 my-3"><i class="bi bi-cart"></i> Add to Cart</button>
+          <a href="#" class="btn btn-outline-secondary w-100">Quick View</a>
+        </div>
+      </div>
+    </section>
+  
+    <!-- accordion section -->
+    <section class="container my-5">
+      <div class="row">
+        <p class="h3 text-center mb-5">About Our Services</p>
+        <div class="col-md-7 me-auto">
+  
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Our Services
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  About our brands
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Our Technology
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+         
+  
+          <button class="btn btn-outline-danger w-100 mt-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+           Click for More Details
+          </button>
+          
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">More Details</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <div>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero ab doloremque, tenetur veniam nisi eaque quasi, est inventore id minima odio harum dolorum velit aperiam? Voluptatibus autem, ipsa fuga a distinctio eius ducimus optio? Laboriosam minus nihil tempore ad repudiandae minima voluptatibus accusantium aliquam impedit in doloribus id, ullam harum vero possimus necessitatibus! Odio molestiae, suscipit a voluptate eligendi laudantium.
+              </div>
+              <div class="dropdown mt-3">
+                <button class="btn btn-danger w-100 dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+                  Open Menu
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="#">Home</a></li>
+                  <li><a class="dropdown-item" href="#">Product</a></li>
+                  <li><a class="dropdown-item" href="#">Shop All</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+        <div class="col-md-3">
+          <img class="img-fluid" src="/images/watch_acco.avif" alt="">
+        </div>
+      </div>
+    </section>
+  
+  <!-- Shop By Brands Section -->
+  
+    <section class="container my-5">
+      <p class="h4 mb-5">Shop by Brands</p>
+      <div class="row bg-white">
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-1.png" alt="">
+        </div>
+      
+      
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid" src="/images/shopbybrand-2.png" alt="">
+        </div>
+      
+      
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-3.png" alt="">
+        </div>
+     
+      
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-4.png" alt="">
+        </div>
+     
+      
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-5.png" alt="">
+        </div>
+      
+      
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-6.png" alt="">
+        </div>
+      
+      
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-7.png" alt="">
+        </div>
+  
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-8.png" alt="">
+        </div>
+  
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-9.png" alt="">
+        </div>
+  
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-10.png" alt="">
+        </div>
+  
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-11.png" alt="">
+        </div>
+  
+        <div class="col-md-2 border border-1 py-5 px-5 text-center">
+          <img class="img-fluid text-center" src="/images/shopbybrand-12.png" alt="">
+        </div>
+      
+    </section>
+    <!-- Top Selling Section  -->
+    <section class="container my-5">
+    
+      <p class="h4 mb-5"> Top Selling Products </p>
+  
+      <div class="row justify-content-between">
+  
+        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white py-5 px-5">
+  
+          <div class="col-5">
+            <img class="img-fluid" src="images/topSelling-1.jpg" alt="">
+          </div>
+  
+          <div class="col-5">
+              <p class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+              <p> Senmei ipsum dolore eiusmod dolor officia do nisi </p>
+              <p>
+                <span class="fw-bold text-secondary me-3"> <s> $25.74 </s> </span>
+                <span class="fw-bold text-danger"> $28.80 </span>
+              </p>
+              <button class="btn btn-danger"> Add to Cart </button>
+          </div>
+  
+        </div>
+  
+        
+  
+        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white py-5 px-5">
+  
+          <div class="col-5">
+            <img class="img-fluid" src="images/topSelling-2.jpg" alt="">
+          </div>
+  
+          <div class="col-5">
+              <p class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+              <p> Canopoly duis voluptate dolor sunt sit adipisicing in </p>
+              <p>
+                <span class="fw-bold text-secondary me-3"> <s> $25.74 </s> </span>
+                <span class="fw-bold text-danger"> $28.80 </span>
+              </p>
+              <button class="btn btn-danger"> Add to Cart </button>
+          </div>
+  
+        </div>
+  
+  
+  
+        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white py-5 px-5 mt-5">
+  
+          <div class="col-5">
+            <img class="img-fluid" src="images/toSelling-3.jpg" alt="">
+          </div>
+  
+          <div class="col-5">
+              <p class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+              <p> Canopoly duis voluptate dolor sunt sit adipisicing in </p>
+              <p>
+                <span class="fw-bold text-secondary me-3"> <s> $25.74 </s> </span>
+                <span class="fw-bold text-danger"> $28.80 </span>
+              </p>
+              <button class="btn btn-danger"> Add to Cart </button>
+          </div>
+  
+        </div>
+  
+  
+        <div class="col-md-5 d-flex align-items-center justify-content-around bg-white py-5 px-5 mt-5">
+  
+          <div class="col-5">
+            <img class="img-fluid" src="images/topSelling-4.jpg" alt="">
+          </div>
+  
+          <div class="col-5">
+              <p class="text-warning">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+              </p>
+              <p> Canopoly duis voluptate dolor sunt sit adipisicing in </p>
+              <p>
+                <span class="fw-bold text-secondary me-3"> <s> $25.74 </s> </span>
+                <span class="fw-bold text-danger"> $28.80 </span>
+              </p>
+              <button class="btn btn-danger"> Add to Cart </button>
+          </div>
+  
+        </div>
+  
+  
+      </div>
+  
+    </section>
+  <!-- Shop Now Features  -->
+    <section class="container my-5">
+      <a href="https://github.com/marjibchiran">
+        <div style="background-image: url(/images/headphoneSlide.png); height: 300px; background-repeat: no-repeat; background-position: center; background-size: cover;">
+  
+        </div>
+      </a>
+    </section>
+  
+    <!-- Contact Form  -->
+  
+    <section class="container my-5">
+      <p class="h3">Order Your Products</p>
+      <div class="row align-items-center">
+          
+            <div class="col-md-6">
+              <form class="mt-5">
+              <div class="d-flex justify-content-between">
+                <div class="col-5">
+                  <label for="forName" class="form-label">Name</label>
+                  <input type="text" id="forName" class="form-control" placeholder="Your Name">
+                </div>
+              
+                <div class="col-5">
+                  <label for="forEmail" class="form-label">Email Address</label>
+                  <input type="email" id="forEmail" class="form-control" placeholder="Your Email">
+                </div>
+              </div>
+    
+              <div class="mt-3">
+                <label for="forAddress" class="form-label">Shipping Address</label>
+                <input type="text" id="forAddress" class="form-control" placeholder="Your Street Address">
+              </div>
+              <div class="mt-3">
+                <input type="text" class="form-control" placeholder="Your Street Address 2">
+              </div>
+    
+              <div>
+                <div class="d-flex justify-content-between mt-3"> 
+                    <div class="col-5">
+                    <input type="text" class="form-control" placeholder="City">
+                    </div>
+                
+                    <div class="col-5">
+                    <input type="text" class="form-control" placeholder="Region">
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="d-flex justify-content-between mt-3"> 
+                    <div class="col-5">
+                    <input type="text" class="form-control" placeholder="Postal/Zip Code">
+                    </div>
+                
+                    <div class="col-5">
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Your Country</option>
+                        <option value="1">United States</option>
+                        <option value="2">United Kingdom</option>
+                        <option value="3">Australia</option>
+                        <option value="3">China</option>
+                        <option value="3">Vietnam</option>
+                      </select>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="mt-3">
+                <label class="form-label" for="forTextarea">Your Message Body</label>
+                <textarea name="" class="form-control" id="forTextarea" rows="5">Write Your Message</textarea>
+              </div>
+              <div class="my-5">
+              <button class="btn btn-success w-100">Confirm</button>
+             </div>
+            </form>
+          
+        </div>
+        <div class="col-md-6">
+          <img class="img-fluid" src="/images/Formal_Email.png" alt="">
+        </div>
+    </section>
+  </main>
+
+     <!-- Bootstrap Footer Section  -->
+<footer class="container mt-5 px-5">
+  <p class="h2 fw-bold text-center text-warning">BS Shop</p>
+  <hr class="border border-1 border-danger">
+  <div class="row">
+
+    <div class="col-md-3">
+      <p class="h4 mb-4">About Us</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+
+    <div class="col-md-3">
+      <p class="h4 mb-4">Features</p>
+      <p>
+        <a class="text-decoration-none" href="#">About Us</a>
+      </p>
+      <p>
+        <a class="text-decoration-none" href="#">Collections</a>
+      </p>
+      <p>
+        <a class="text-decoration-none" href="#">Products</a>
+      </p>
+      <p>
+        <a class="text-decoration-none" href="#">Best Selling</a>
+      </p>
+      <p>
+        <a class="text-decoration-none" href="#">Contact Us</a>
+      </p>
+    </div>
+    <div class="col-md-3">
+    <p class="h4 mb-4">General Links</p>
+    <p>
+      <a class="text-decoration-none" href="#">Blogs</a>
+    </p>
+    <p>
+      <a class="text-decoration-none" href="#">Tracking Orders</a>
+    </p>
+    <p>
+      <a class="text-decoration-none" href="#"></a>
+    </p>
+    <p>
+      <a class="text-decoration-none" href="#">Best Selling</a>
+    </p>
+    <p>
+      <a class="text-decoration-none" href="#">Contact Us</a>
+    </p>
+  </div>
+
+  <div class="col-md-3">
+    <p class="h4 mb-4">Helpful</p>
+    <p>
+      <a class="text-decoration-none" href="#">FAQ</a>
+    </p>
+    <p>
+      <a class="text-decoration-none" href="#">Map</a>
+    </p>
+    <p>
+      <a class="text-decoration-none" href="#">Office Address</a>
+    </p>
+  </div>
+  </div>
+  <hr class="border border-1 border-danger">
+  <div class="my-5">
+    <p class="text-center fw-bold text-secondary">&copy; Copyright || 2024</p>
+  </div>
+
+</footer>
+
+
+  <!-- Bootstrap JS Bundle CDN Links   -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+<!-- https://www.blackhalo.com/ -->
